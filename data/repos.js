@@ -41,4 +41,18 @@ export const repos = [
     "owner": "nuxt",
     "owner_url": "https://github.com/nuxt",
   },
+  {
+    "id": "vue",
+    "api": "https://api.github.com/repos/vuejs/vue",
+    "image": "https://avatars.githubusercontent.com/u/6128107?v=4",
+    "name": "vue",
+    "full_name": "vuejs/vue",
+    "language": "JavaScript",
+    "homepage": "http://vuejs.org",
+    "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+    "repo_url": "https://github.com/vuejs/vue",
+    "license": "MIT License",
+    "owner": "vue",
+    "owner_url": "https://github.com/vuejs",
+  },
 ]

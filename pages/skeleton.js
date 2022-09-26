@@ -65,7 +65,6 @@ export default function Skeleton() {
   if (error) return <div>failed to load</div>
 
   return (
-    <>
     {data ?
       <div>
         <Image alt="Image" src={data.image} />
