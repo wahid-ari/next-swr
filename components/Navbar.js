@@ -6,7 +6,8 @@ import {SunIcon, MoonIcon} from "@heroicons/react/24/outline"
 export default function Navbar(){
   const [darkMode, setDarkMode] = useContext(GlobalContext);
   return (
-    <div className="py-4 max-w-5xl px-4 mx-auto flex gap-x-5 justify-between sticky top-0 z-10 bg-opacity-40 dark:bg-opacity-40 bg-gray-100 dark:bg-neutral-900 backdrop-filter backdrop-blur">
+    // <div className="py-4 max-w-5xl px-4 mx-auto flex gap-x-5 justify-between sticky top-0 z-10 bg-opacity-40 dark:bg-opacity-40 bg-gray-100 dark:bg-neutral-900 backdrop-filter backdrop-blur">
+    <div className="py-4 max-w-5xl px-4 mx-auto flex gap-x-5 justify-between sticky top-0 z-10 bg-white dark:bg-neutral-900">
       <nav className="flex flex-wrap items-center gap-x-5 gap-y-3">
         <Link href="/">
           <a className="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium">Home</a>
