@@ -51,6 +51,9 @@ export default function Navbar(){
         <Link href="/dependent">
           <a className="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium">Dependent</a>
         </Link>
+        <Link href="/blog">
+          <a className="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium">Blog</a>
+        </Link>
       </nav>
       {darkMode ?
         <button aria-label="Change Theme" onClick={() => setDarkMode(!darkMode)}><SunIcon className="h-5 w-5 text-gray-700 dark:text-gray-200" /></button>
